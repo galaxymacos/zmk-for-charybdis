@@ -70,7 +70,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -89,12 +89,12 @@
 
         layer_2 {
             bindings = <
-&trans          &trans  &trans  &trans            &trans        &trans      &trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
-&trans          &kp Q   &kp W   &kp F             &kp P         &kp G       &kp J   &kp L           &kp U         &kp Y           &trans     &trans
-&trans          &kp A   &kp R   &kp S             &kp T         &kp D       &kp H   &kp N           &kp E         &kp I           &kp O      &trans
-&kp LEFT_SHIFT  &kp Z   &kp X   &kp C             &kp V         &kp B       &kp K   &kp M           &trans        &trans          &trans     &trans
-                                &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI    &trans  &trans
-                                                  &trans        &trans      &trans
+&trans          &trans  &trans  &trans            &trans             &trans                  &trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
+&trans          &kp Q   &kp W   &kp F             &kp P              &kp G                   &kp J   &kp L           &kp U         &kp Y           &trans     &trans
+&trans          &kp A   &kp R   &kp S             &kp T              &kp D                   &kp H   &kp N           &kp E         &kp I           &kp O      &trans
+&kp LEFT_SHIFT  &kp Z   &kp X   &kp C             &kp V              &kp B                   &kp K   &kp M           &trans        &trans          &trans     &trans
+                                &kp LEFT_CONTROL  &kp LEFT_ALT       &kp LGUI                &trans  &trans
+                                                  &kp LS(LA(LCTRL))  &kp LS(LA(LC(LGUI)))    &trans
             >;
         };
 
