@@ -60,17 +60,17 @@
 
         layer_0 {
             bindings = <
-&kp ESC         &kp B  &kp N2  &kp N3        &kp N4     &kp N5              &kp N6             &kp N7     &kp N8     &kp N9      &kp N0         &kp MINUS
-&kp TAB         &kp Q  &kp W   &kp F         &kp P      &kp G               &kp J              &kp L      &kp U      &kp Y       &kp SEMICOLON  &kp EQUAL
-&kp BACKSPACE   &kp A  &kp R   &kp S         &kp T      &kp D               &kp H              &kp N      &kp E      &kp I       &kp O          &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X   &kp C         &kp V      &kp B               &kp K              &kp M      &kp COMMA  &kp PERIOD  &kp FSLH       &kp RIGHT_SHIFT
-                               &kp LEFT_ALT  &kp SPACE  &kp LEFT_COMMAND    &mo 1              &kp ENTER
-                                             &mkp MB1   &mkp MB2            &kp RIGHT_CONTROL
+&kp ESC         &kp NUMBER_1  &kp N2  &kp N3        &kp N4     &kp N5              &kp N6             &kp N7     &kp N8     &kp N9      &kp N0         &kp MINUS
+&kp TAB         &kp Q         &kp W   &kp F         &kp P      &kp G               &kp J              &kp L      &kp U      &kp Y       &kp SEMICOLON  &kp EQUAL
+&kp BACKSPACE   &kp A         &kp R   &kp S         &kp T      &kp D               &kp H              &kp N      &kp E      &kp I       &kp O          &kp SQT
+&kp LEFT_SHIFT  &kp Z         &kp X   &kp C         &kp V      &kp B               &kp K              &kp M      &kp COMMA  &kp PERIOD  &kp FSLH       &kp RIGHT_SHIFT
+                                      &kp LEFT_ALT  &kp SPACE  &kp LEFT_COMMAND    &mo 1              &kp ENTER
+                                                    &mkp MB1   &mkp MB2            &kp RIGHT_CONTROL
             >;
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,
+                // 编码器1：上下滚动,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
