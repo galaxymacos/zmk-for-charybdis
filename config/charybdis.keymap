@@ -70,7 +70,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -101,9 +101,9 @@
         layer_3 {
             bindings = <
 &trans         &trans           &trans           &trans            &trans                    &trans                  &trans            &trans                &trans        &trans                 &trans             &trans
-&trans         &trans           &kp NUMBER_7     &kp KP_NUMBER_8   &kp KP_NUMBER_9           &trans                  &trans            &kp LEFT_PARENTHESIS  &kp UP_ARROW  &kp RIGHT_PARENTHESIS  &trans             &trans
-&kp BACKSPACE  &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5   &kp KP_NUMBER_6           &trans                  &kp LEFT_BRACKET  &kp LEFT              &kp DOWN      &kp RIGHT              &kp RIGHT_BRACKET  &trans
-&trans         &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2   &kp KP_NUMBER_3           &trans                  &kp GRAVE         &kp LEFT_BRACE        &trans        &kp RIGHT_BRACE        &kp BSLH           &trans
+&trans         &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8   &kp KP_NUMBER_9           &kp KP_PLUS             &trans            &kp LEFT_PARENTHESIS  &kp UP_ARROW  &kp RIGHT_PARENTHESIS  &trans             &trans
+&kp BACKSPACE  &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5   &kp KP_NUMBER_6           &kp KP_MINUS            &kp LEFT_BRACKET  &kp LEFT              &kp DOWN      &kp RIGHT              &kp RIGHT_BRACKET  &trans
+&trans         &kp KP_DIVIDE    &kp KP_NUMBER_1  &kp KP_NUMBER_2   &kp KP_NUMBER_3           &kp KP_EQUAL            &kp GRAVE         &kp LEFT_BRACE        &trans        &kp RIGHT_BRACE        &kp BSLH           &trans
                                                  &kp LEFT_COMMAND  &kp LEFT_ALT              &kp LEFT_CONTROL        &trans            &trans
                                                                    &kp LS(LA(LEFT_CONTROL))  &kp LS(LA(LC(LGUI)))    &trans
             >;
